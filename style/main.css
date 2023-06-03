@@ -24,7 +24,7 @@ body, html {
 
 @font-face {
     font-family: 'Satoshi';
-    src: url('/assets/fonts/Satoshi-Variable.ttf') format('truetype');
+    src: url('https://qusaynaser.github.io/qusay.github.io/assets/fonts/Satoshi-Variable.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -46,7 +46,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/assets/images/noise.png');
+    background-image: url('https://qusaynaser.github.io/qusay.github.io/assets/images/noise.png');
     background-repeat: repeat;
     z-index: -2;
 }
