@@ -15,8 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
 
-    <title>Test</title>
+    <title>Qusay</title>
 </head>
 
 <body>
@@ -24,19 +25,20 @@
     <div class="noise"></div>
 
     <section id="atf">
-        <h1 class="atf--name mb-3 text-center mx-5">Qusay N<img src="https://qusaynaser.github.io/qusay.github.io/assets/images/dot.png" class="atf--dot"></span></h1>
+        <h1 class="atf--name mb-3 text-center mx-5">Qusay N<img
+                src="https://qusaynaser.github.io/qusay.github.io/assets/images/dot.png" class="atf--dot"></span></h1>
         <h4 class="atf--slogan mb-5 text-center mx-5">UI/UX Designer & Frontend developer</h4>
         <button class="btn btn-primary mb-3 animated-button">
             <span class="btn-label">Download CV</span>
             <i class="ph ph ph-download btn-icon" style="color: white;font-size: 1.5rem;"></i>
         </button>
-        <a  href="#projects">
+        <a href="#projects">
             <button class="btn btn-outline-primary animated-button">
                 <span class="btn-label">Projects</span>
                 <i class="ph ph-caret-circle-double-down btn-icon" style="color: white;font-size: 1.5rem;"></i>
             </button>
         </a>
-        
+
     </section>
     <section id="projects" class="pt-2">
         <div class="list-head ">
@@ -58,7 +60,7 @@
             </div>
         </div>
         <div class="projects-list mb-5">
-            <div class="project-item">
+            <div class="project-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
                 <div class="project--year mb-4">
                     <p class="px-4">2023</p>
                 </div>
@@ -70,8 +72,11 @@
                     <div class="project--image p-4">
                         <img src="https://source.unsplash.com/random">
                     </div>
-                    <div class="project--name py-3 px-4">
-                        <p>www.google.com</p>
+                    <div class="project--name px-4">
+                        <p>equiptal.net</p>
+                        <p class="spec">
+                            UI/UX
+                        </p>
                     </div>
                 </div>
             </div>
@@ -87,8 +92,11 @@
                     <div class="project--image p-4">
                         <img src="https://source.unsplash.com/random">
                     </div>
-                    <div class="project--name py-3 px-4">
-                        <p>www.google.com</p>
+                    <div class="project--name px-4">
+                        <p>darcom.ps</p>
+                        <p class="spec">
+                            UI/UX
+                        </p>
                     </div>
                 </div>
             </div>
@@ -104,8 +112,11 @@
                     <div class="project--image p-4">
                         <img src="https://source.unsplash.com/random">
                     </div>
-                    <div class="project--name py-3 px-4">
-                        <p>www.google.com</p>
+                    <div class="project--name px-4">
+                        <p>Dot. The Game</p>
+                        <p class="spec">
+                            Unity
+                        </p>
                     </div>
                 </div>
             </div>
@@ -121,8 +132,11 @@
                     <div class="project--image p-4">
                         <img src="https://source.unsplash.com/random">
                     </div>
-                    <div class="project--name py-3 px-4">
-                        <p>www.google.com</p>
+                    <div class="project--name px-4">
+                        <p>CMC</p>
+                        <p class="spec">
+                            FrontEnd
+                        </p>
                     </div>
                 </div>
             </div>
@@ -138,8 +152,11 @@
                     <div class="project--image p-4">
                         <img src="https://source.unsplash.com/random">
                     </div>
-                    <div class="project--name py-3 px-4">
-                        <p>www.google.com</p>
+                    <div class="project--name px-4">
+                        <p>Optimus</p>
+                        <p class="spec">
+                            UI/UX & FrontEnd
+                        </p>
                     </div>
                 </div>
             </div>
@@ -155,33 +172,132 @@
                     <div class="project--image p-4">
                         <img src="https://source.unsplash.com/random">
                     </div>
-                    <div class="project--name py-3 px-4">
+                    <div class="project--name px-4">
                         <p>www.google.com</p>
+                        <p class="spec">
+                            Full Stack
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <div class="project-details offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
+        <div class="background"></div>
+        <div class="noise"></div>
+        <div class="offcanvas-body">
+            <div class="project-images">
+                <div class="main-image">
+                    <img src="https://source.unsplash.com/random">
+                </div>
+                <div class="other-images row g-2">
+                    <div class="col-6 col-sm-3">
+                        <img src="https://source.unsplash.com/random">
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <img src="https://source.unsplash.com/random">
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <img src="https://source.unsplash.com/random">
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <img src="https://source.unsplash.com/random">
+                    </div>
+
+                </div>
+            </div>
+            <div class="project-title">
+                <div class="project-name">
+                    <h5>Project Name</h5>
+                    <p class="spec">SaaS</p>
+
+                </div>
+                <a href="www.google.com" target="_blank" class="project-link">
+                    <i class="ph ph-arrow-square-out" style="color: #333333;font-size: 1.5rem;"></i>
+                </a>
+            </div>
+            <hr>
+            <div class="project-specs d-flex align-items-center">
+                <div class="d-flex flex-column">
+                    <label class="label">
+                        Role
+                    </label>
+                    <div class="d-flex align-items-center gap-2">
+                        <p class="spec">UI/UX</p>
+                        <p class="spec">FrontEnd</p>
+                    </div>
+                </div>
+                <div class="vr"></div>
+                <div class="d-flex flex-column">
+                    <label class="label">
+                        Tech Used
+                    </label>
+                    <div class="d-flex align-items-center gap-2">
+                        <p class="spec">VueJS</p>
+                        <p class="spec">Laravel</p>
+                        <p class="spec">Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="project-description-challange">
+                <div class="d-flex flex-column">
+                    <label class="label">
+                        Project
+                    </label>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores praesentium dolorum at cum
+                        fuga
+                        possimus, suscipit consectetur sapiente beatae in magni illum maiores id! Iusto eius unde sunt!
+                        Dolores,
+                        modi?</p>
+                </div>
+                <div class="d-flex flex-column">
+
+                    <label class="label">
+                        Challange
+                    </label>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, ab necessitatibus odit nobis
+                        porro
+                        delectus?</p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
 </body>
+<script src="https://unpkg.com/kursor"></script>
+<script>
+    new kursor({
+        type: 4,
+        removeDefaultCursor: true
+    })
+</script>
 
 <script>
-    (function() {
-    function scrollHorizontally(e) {
-        e = window.event || e;
-        var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
-        document.getElementById('projects').scrollLeft -= (delta * 40); // Multiplied by 40
-        e.preventDefault();
-    }
-    if (document.getElementById('projects').addEventListener) {
-        // IE9, Chrome, Safari, Opera
-        document.getElementById('projects').addEventListener('mousewheel', scrollHorizontally, false);
-        // Firefox
-        document.getElementById('projects').addEventListener('DOMMouseScroll', scrollHorizontally, false);
-    } else {
-        // IE 6/7/8
-        document.getElementById('projects').attachEvent('onmousewheel', scrollHorizontally);
-    }
-})();
+        (function () {
+            function scrollHorizontally(e) {
+                e = window.event || e;
+                var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+                document.getElementById('projects').scrollLeft -= (delta * 40); // Multiplied by 40
+                e.preventDefault();
+            }
+            if (document.getElementById('projects').addEventListener) {
+                // IE9, Chrome, Safari, Opera
+                document.getElementById('projects').addEventListener('mousewheel', scrollHorizontally, false);
+                // Firefox
+                document.getElementById('projects').addEventListener('DOMMouseScroll', scrollHorizontally, false);
+            } else {
+                // IE 6/7/8
+                document.getElementById('projects').attachEvent('onmousewheel', scrollHorizontally);
+            }
+        })();
 
 </script>
 
